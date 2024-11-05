@@ -6,7 +6,7 @@
 /*   By: mlapique <mlapique@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 16:33:09 by mlapique          #+#    #+#             */
-/*   Updated: 2024/11/05 16:37:39 by mlapique         ###   ########.fr       */
+/*   Updated: 2024/11/05 16:40:19 by mlapique         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,10 @@ int	ft_strcmp(const char *s1, const char *s2)
 	unsigned char	*s1cpy;
 	unsigned char	*s2cpy;
 
-    if (!s1 || !s2)
-    {
-        return (-1);
-    }
+	if (!s1 || !s2)
+	{
+		return (-1);
+	}
 	s1cpy = (unsigned char *)s1;
 	s2cpy = (unsigned char *)s2;
 	i = 0;
